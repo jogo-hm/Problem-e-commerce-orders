@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 //Material components
 import {MatCardModule} from '@angular/material/card';
@@ -32,12 +33,14 @@ import { OrderListComponent } from './components/order-list/order-list.component
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
     MatCardModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatMenuModule
 
   ],
   providers: [],

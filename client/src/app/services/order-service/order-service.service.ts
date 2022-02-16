@@ -8,8 +8,10 @@ export class OrderServiceService {
 
   constructor(private http: HttpClient) { }
 
+  host = 'http://localhost:3001/';
+
   getOrders() {
-    return this.http.get('/api/orders');
+    return this.http.get(this.host + 'api/orders');
   }
 
 }

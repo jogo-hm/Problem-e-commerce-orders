@@ -1,2 +1,8 @@
 # Problem-e-commerce-orders
-Problem E-commerce order to apply to Gara Group
+List of orders. Consume a nodejs server with an Angular aplication.
+
+## BROWSER VIEW
+![](./img/browser.png)<br><br>
+
+## MOBILE VIEW
+![](./img/movil.png)<br><br>
