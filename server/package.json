@@ -4,12 +4,16 @@
   "description": "E-commerce aplication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "author": "Jose Hernandez",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
