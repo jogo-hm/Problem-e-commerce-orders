@@ -1,0 +1,7 @@
+<app-nav></app-nav>
+
+<div *ngFor="let order of orders">
+    <app-order [inputNumber]="order.id" class="order-format"></app-order>
+</div>
+
+  
