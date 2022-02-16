@@ -1,0 +1,7 @@
+<app-nav></app-nav>
+
+<mat-list-item *ngFor="let order of orders">
+    <app-order [inputNumber]="order.id" ></app-order>
+</mat-list-item>
+
+  
